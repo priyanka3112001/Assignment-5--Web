@@ -1,0 +1,15 @@
+<input type="text" id="t1">
+<button onclick="f1()">Check</button>
+<p id="p1"></p>
+
+<script>
+function f1(){
+    var value = document.getElementById("t1").value;
+    if(isNaN(value)){
+            document.getElementById("p1").innerHTML = "Error: only Numbers Are Required.."
+    } else{
+        document.getElementById("p1").innerHTML = "";
+    }
+}
+
+</script>

@@ -1,0 +1,11 @@
+<input type="text" id="t1">
+<button onclick="f1()">Click</button>
+
+<script>
+    function f1(){
+        var value = document.getElementById("t1").value;
+        if(value == ""){
+            document.getElementById("t1").style.border = "2px solid red";
+        }
+    }
+</script>

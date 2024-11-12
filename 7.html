@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="p1" onmouseover="changeColor(true)" onmouseout="changeColor(false)">Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Sint dignissimos debitis error architecto animi, doloribus
+        rerum est quos, modi reiciendis reprehenderit praesentium odio ipsam consequuntur
+        ducimus aut ad deserunt consequatur!
+
+    </p>
+
+    <script>
+        function changeColor(isMouseOver) {
+            const para = document.getElementById(p1);
+
+            if (isMouseOver) {
+                para.style.backgroundColor = 'lightblue';
+            } else {
+                para.style.backgroundColor = 'pink';
+            }
+        }
+    </script>
+</body>
+
+</html>

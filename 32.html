@@ -1,0 +1,15 @@
+<input type="text" id="t1">
+<button onclick="f1()">Check</button> 
+
+<script>
+function f1(){
+    var value = document.getElementById("t1").value;
+    if(isNaN(value)){
+        console.log("The value is String...");
+    }else{
+        console.log("The value is number..");
+        
+    }
+}
+
+</script>
